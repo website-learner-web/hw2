@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+header{
+    background-color: aqua;
+    padding: 15px;
+}
+nav{
+    background-color: rgb(134, 50, 140) ;
+    padding: 15px;
+    width: 100cm;
+    top: 15px;
+}
+main{
+    background-color: cyan;
+    padding: auto;
+    font-size: 15px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: hotpink;
+    text-align: center;
+    padding: 15px;
+}
+li{
+    display: inline-block;
+    width: 100cm;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+p{
+    line-height: 1.6;
+}
+div{
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 200px 200px;
+    padding-left: 10%;
+}
